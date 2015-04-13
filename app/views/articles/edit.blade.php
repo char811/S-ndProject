@@ -1,0 +1,1 @@
+C:\OpenServer\domains\laraHabr\app/views/articles/edit.blade.php

@@ -1,0 +1,22 @@
+.carousel-caption {
+ z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+ height: 500px;
+ background-color:red;
+ }
+ .carousel img {
+  position: absolute;
+   top:auto;
+top: 40%;
+left: 50%;
+
+/*выравниваем*/
+-webkit-transform: translate(-50%, -50%);
+-moz-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+-o-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
